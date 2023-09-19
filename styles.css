@@ -48,7 +48,7 @@ h1{
     display: block;
     margin-right: auto;
     color: white;
-    font-size: 2rem;
+    font-size: 1rem;
 }
 .nav li {
   padding: 15px 10px 10px 10px;
@@ -81,9 +81,10 @@ header .profile-image {
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
+
 .tag {
-  background-color:none;
-  color: black;
+  background-color:transparent;
+  color: white;
   padding: 10px;
   border-radius: 5px;
   display: table;
@@ -152,30 +153,17 @@ footer ul li {
 }
 
 a.social {
-  display: inline-block;
-  text-indent: -9999px;
-  margin-left: 5px;
-  width: 30px;
-  height: 30px;
-  background-size: 30px 30px;
+  color: whitesmoke;
+}
+
+a.social:hover {
+  color: whitesmoke;
   opacity: .4;
   transition: all .5s;
 }
-a.twitter {
-  background-image: url(images/twitter.svg);
-}
-a.linkedin {
-  background-image: url(images/linkedin.svg);
-}
-a.github {
-  background-image: url(images/github.svg);
-}
-a.social:hover {
-  opacity: 1;
-}
-.clearfix {
-  clear: both;
-}
+
+
+
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
