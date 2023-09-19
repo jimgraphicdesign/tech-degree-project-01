@@ -1,2 +1,2 @@
-# tech-degree-project-01
+# tech degree project-01
  treehouse work
